@@ -24,12 +24,32 @@ class AppFonts{
     color: Colors.black,
   );
 
+  static TextStyle get heading0 => const TextStyle(
+    fontSize: 72,
+    fontWeight: FontWeight.w700,
+    color: Colors.black,
+  );
   static TextStyle get heading1 => const TextStyle(
-    fontSize: 24,
+    fontSize: 56,
     fontWeight: FontWeight.w700,
     color: Colors.black,
   );
   static TextStyle get heading2 => const TextStyle(
+    fontSize: 40,
+    fontWeight: FontWeight.w700,
+    color: Colors.black,
+  );
+  static TextStyle get heading3 => const TextStyle(
+    fontSize: 32,
+    fontWeight: FontWeight.w700,
+    color: Colors.black,
+  );
+  static TextStyle get heading4 => const TextStyle(
+    fontSize: 24,
+    fontWeight: FontWeight.w700,
+    color: Colors.black,
+  );
+  static TextStyle get heading5 => const TextStyle(
     fontSize: 20,
     fontWeight: FontWeight.w700,
     color: Colors.black,
@@ -63,6 +83,27 @@ class AppFonts{
   static TextStyle get paragraphSmallBold => const TextStyle(
     fontSize: 12,
     fontWeight: FontWeight.w700,
+    color: Colors.black,
+  );
+
+  static TextStyle get componentsLarge => const TextStyle(
+    fontSize: 16,
+    fontWeight: FontWeight.w600,
+    color: Colors.black,
+  );
+  static TextStyle get componentsMedium => const TextStyle(
+    fontSize: 14,
+    fontWeight: FontWeight.w400,
+    color: Colors.black,
+  );
+  static TextStyle get componentsMediumBold => const TextStyle(
+    fontSize: 14,
+    fontWeight: FontWeight.w600,
+    color: Colors.black,
+  );
+  static TextStyle get componentsSmall => const TextStyle(
+    fontSize: 12,
+    fontWeight: FontWeight.w600,
     color: Colors.black,
   );
 
