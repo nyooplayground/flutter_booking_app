@@ -1,7 +1,7 @@
 import 'package:booking_app/config/config.dart';
-import 'package:booking_app/extension/extension.dart';
 import 'package:booking_app/presentation/pages/onboarding/onboarding_cubit.dart';
 import 'package:booking_app/presentation/pages/onboarding/onboarding_state.dart';
+import 'package:booking_app/utils/extension/extension.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
