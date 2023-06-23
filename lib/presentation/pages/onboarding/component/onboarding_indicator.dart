@@ -3,6 +3,7 @@ import 'package:booking_app/presentation/pages/onboarding/onboarding_cubit.dart'
 import 'package:booking_app/presentation/pages/onboarding/onboarding_state.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class OnboardingIndicator extends StatelessWidget {
   const OnboardingIndicator({super.key});
@@ -34,7 +35,7 @@ class OnboardingIndicator extends StatelessWidget {
       margin: EdgeInsets.symmetric(horizontal: index == 1 ? 12 : 0),
       decoration: BoxDecoration(
         color: AppColors.accentPink,
-        borderRadius: BorderRadius.circular(4),
+        borderRadius: BorderRadius.circular(4.r),
       ),
     );
   }
@@ -46,7 +47,7 @@ class OnboardingIndicator extends StatelessWidget {
       margin: EdgeInsets.symmetric(horizontal: index == 1 ? 12 : 0),
       decoration: BoxDecoration(
         color: AppColors.ink03,
-        borderRadius: BorderRadius.circular(4),
+        borderRadius: BorderRadius.circular(4.r),
       ),
     );
   }
