@@ -76,7 +76,7 @@ class SecondaryButton extends StatelessWidget {
   Widget _type3() {
     return SizedBox(
       width: width.w,
-      height: 40.h,
+      height: 57.h,
       child: ElevatedButton(
         onPressed: onPressed,
         style: ElevatedButton.styleFrom(

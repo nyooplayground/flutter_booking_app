@@ -19,19 +19,21 @@ class OnboardingPage extends StatelessWidget {
   Widget _buildPage(BuildContext context) {
 
     return Scaffold(
-      body: Padding(
-        padding: const EdgeInsets.all(16.0),
-        child: Column(
-          children: [
-            const OnboardingImage(),
-            32.0.height,
-            const OnboardingTitle(),
-            45.0.height,
-            const OnboardingIndicator(),
-            53.0.height,
-            const OnboardingButton(),
-            82.9.height,
-          ],
+      body: SafeArea(
+        child: Padding(
+          padding: const EdgeInsets.all(16.0),
+          child: Column(
+            children: [
+              const OnboardingImage(),
+              32.0.height,
+              const OnboardingTitle(),
+              45.0.height,
+              const OnboardingIndicator(),
+              53.0.height,
+              const OnboardingButton(),
+              82.9.height,
+            ],
+          ),
         ),
       ),
     );
